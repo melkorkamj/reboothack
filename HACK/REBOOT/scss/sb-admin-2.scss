@@ -1,15 +1,15 @@
-// Import Custom SB Admin 2 Variables (Overrides Default Bootstrap Variables)
+// Import Custom Keryðu hraðar 2 Variables (Overrides Default Bootstrap Variables)
 @import "variables.scss";
 
 // Import Bootstrap
 @import "../vendor/bootstrap/scss/bootstrap.scss";
 
-// Import Custom SB Admin 2 Mixins and Components
+// Import Custom Keryðu hraðar 2 Mixins and Tímabókun
 @import "mixins.scss";
 @import "global.scss";
 @import "utilities.scss";
 
-// Custom Components
+// Custom Tímabókun
 @import "dropdowns.scss";
 @import "navs.scss";
 @import "buttons.scss";
