@@ -22,437 +22,634 @@
 
 <body id="page-top">
 
-  <!-- Page Wrapper -->
-  <div id="wrapper">
-
-    <!-- Sidebar -->
-    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
-
-      <!-- Sidebar - Brand -->
-      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-        <div class="sidebar-brand-icon rotate-n-15">
-          <i class="fas fa-laugh-wink"></i>
-        </div>
-        <div class="sidebar-brand-text mx-3">Keryðu hraðar <sup>2</div>
-      </a>
-
-      <!-- Divider -->
-      <hr class="sidebar-divider my-0">
-
-      <!-- Nav Item - Heimasvæði -->
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">
-          <i class="fas fa-fw fa-tachometer-alt"></i>
-          <span>Heimasvæði</span></a>
-      </li>
-
-      <!-- Divider -->
-      <hr class="sidebar-divider">
-
-      <!-- Heading -->
-      <div class="sidebar-heading">
-        Interface
-      </div>
-
-      <!-- Nav Item - Pages Collapse Menu -->
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-          <i class="fas fa-fw fa-cog"></i>
-          <span>Tímabókun</span>
-        </a>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Custom Tímabókun:</h6>
-            <a class="collapse-item" href="buttons.html">Buttons</a>
-            <a class="collapse-item" href="cards.html">Cards</a>
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+  
+      <!-- Sidebar -->
+      <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+  
+        <!-- Sidebar - Brand -->
+        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+          <div class="sidebar-brand-icon rotate-n-15">
+            <i class="fas fa-laugh-wink"></i>
           </div>
-        </div>
-      </li>
-
-      <!-- Nav Item - Utilities Collapse Menu -->
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
-          <i class="fas fa-fw fa-wrench"></i>
-          <span>Utilities</span>
+          <div class="sidebar-brand-text mx-3">Keyrðu hraðar</div>
         </a>
-        <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Custom Utilities:</h6>
-            <a class="collapse-item" href="utilities-color.html">Colors</a>
-            <a class="collapse-item" href="utilities-border.html">Borders</a>
-            <a class="collapse-item" href="utilities-animation.html">Animations</a>
-            <a class="collapse-item" href="utilities-other.html">Other</a>
-          </div>
+  
+        <!-- Divider -->
+        <hr class="sidebar-divider my-0">
+  
+        <!-- Nav Item - Heimasvæði -->
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>Heimasvæði</span></a>
+        </li>
+  
+  
+        <!-- Heading -->
+        <div class="sidebar-heading">
+          
         </div>
-      </li>
-
-      <!-- Divider -->
-      <hr class="sidebar-divider">
-
-      <!-- Heading -->
-      <div class="sidebar-heading">
-        Addons
-      </div>
-
-      <!-- Nav Item - Pages Collapse Menu -->
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
-          <i class="fas fa-fw fa-folder"></i>
-          <span>Pages</span>
-        </a>
-        <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Login Screens:</h6>
-            <a class="collapse-item" href="login.html">Login</a>
-            <a class="collapse-item" href="register.html">Register</a>
-            <a class="collapse-item" href="forgot-password.html">Forgot Password</a>
-            <div class="collapse-divider"></div>
-            <h6 class="collapse-header">Other Pages:</h6>
-            <a class="collapse-item" href="404.html">404 Page</a>
-            <a class="collapse-item" href="blank.html">Blank Page</a>
-          </div>
-        </div>
-      </li>
-
-      <!-- Nav Item - Charts -->
-      <li class="nav-item active">
-        <a class="nav-link" href="charts.html">
-          <i class="fas fa-fw fa-chart-area"></i>
-          <span>Charts</span></a>
-      </li>
-
-      <!-- Nav Item - Tables -->
-      <li class="nav-item">
-        <a class="nav-link" href="tables.html">
-          <i class="fas fa-fw fa-table"></i>
-          <span>Tables</span></a>
-      </li>
-
-      <!-- Divider -->
-      <hr class="sidebar-divider d-none d-md-block">
-
-      <!-- Sidebar Toggler (Sidebar) -->
-      <div class="text-center d-none d-md-inline">
-        <button class="rounded-circle border-0" id="sidebarToggle"></button>
-      </div>
-
-    </ul>
-    <!-- End of Sidebar -->
-
-    <!-- Content Wrapper -->
-    <div id="content-wrapper" class="d-flex flex-column">
-
-      <!-- Main Content -->
-      <div id="content">
-
-        <!-- Topbar -->
-        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-
-          <!-- Sidebar Toggle (Topbar) -->
-          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
-            <i class="fa fa-bars"></i>
-          </button>
-
-          <!-- Topbar Search -->
-          <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-            <div class="input-group">
-              <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
-              <div class="input-group-append">
-                <button class="btn btn-primary" type="button">
-                  <i class="fas fa-search fa-sm"></i>
-                </button>
-              </div>
+  
+  
+  
+        <!-- Nav Item - Utilities Collapse Menu -->
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
+            <i class="fas fa-fw fa-wrench"></i>
+            <span>Tímabókun</span>
+          </a>
+          <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <a class="collapse-item" href="utilities-color.html">Suðurland</a>
+              <a class="collapse-item" href="utilities-border.html">Norðurland</a>
+              <a class="collapse-item" href="utilities-animation.html">Austurland</a>
+              <a class="collapse-item" href="utilities-other.html">Vesturland</a>
             </div>
-          </form>
-
-          <!-- Topbar Navbar -->
-          <ul class="navbar-nav ml-auto">
-
-            <!-- Nav Item - Search Dropdown (Visible Only XS) -->
-            <li class="nav-item dropdown no-arrow d-sm-none">
-              <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-search fa-fw"></i>
-              </a>
-              <!-- Dropdown - Messages -->
-              <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
-                <form class="form-inline mr-auto w-100 navbar-search">
-                  <div class="input-group">
-                    <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
-                    <div class="input-group-append">
-                      <button class="btn btn-primary" type="button">
-                        <i class="fas fa-search fa-sm"></i>
-                      </button>
+          </div>
+        </li>
+  
+        <!-- Heading -->
+        <div class="sidebar-heading">
+          
+        </div>
+  
+        <!-- Nav Item - Pages Collapse Menu -->
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
+            <i class="fas fa-fw fa-folder"></i>
+            <span>Umsóknir</span>
+          </a>
+          <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <a class="collapse-item" href="login.html">Bráðarbirgðaskírteini</a>
+              <a class="collapse-item" href="register.html">Fullnaðarskírteini</a>
+              <a class="collapse-item" href="forgot-password.html">Endurnýjun skírteinis</a>
+          </div>
+        </li>
+  
+        <!-- Nav Item - Charts -->
+        <li class="nav-item">
+          <a class="nav-link" href="charts.html">
+            <i class="fas fa-fw fa-chart-area"></i>
+            <span>Upplýsingar</span></a>
+        </li>
+  
+        <!-- Nav Item - Tables -->
+        <li class="nav-item">
+          <a class="nav-link" href="tables.html">
+            <i class="fas fa-fw fa-table"></i>
+            <span>Útskrá</span></a>
+        </li>
+  
+        <!-- Sidebar Toggler (Sidebar) -->
+        <div class="text-center d-none d-md-inline">
+          <button class="rounded-circle border-0" id="sidebarToggle"></button>
+        </div>
+  
+      </ul>
+      <!-- End of Sidebar -->
+  
+      <!-- Content Wrapper -->
+      <div id="content-wrapper" class="d-flex flex-column">
+  
+        <!-- Main Content -->
+        <div id="content">
+  
+          <!-- Topbar -->
+          <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+  
+            <!-- Sidebar Toggle (Topbar) -->
+            <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+              <i class="fa fa-bars"></i>
+            </button>
+  
+            <!-- Topbar Search -->
+            <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+              <div class="input-group">
+                <input type="text" class="form-control bg-light border-0 small" placeholder="Leita af..." aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-primary" type="button">
+                    <i class="fas fa-search fa-sm"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+  
+            <!-- Topbar Navbar -->
+            <ul class="navbar-nav ml-auto">
+  
+              <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+              <li class="nav-item dropdown no-arrow d-sm-none">
+                <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fas fa-search fa-fw"></i>
+                </a>
+                <!-- Dropdown - Messages -->
+                <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
+                  <form class="form-inline mr-auto w-100 navbar-search">
+                    <div class="input-group">
+                      <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+                      <div class="input-group-append">
+                        <button class="btn btn-primary" type="button">
+                          <i class="fas fa-search fa-sm"></i>
+                        </button>
+                      </div>
                     </div>
-                  </div>
-                </form>
-              </div>
-            </li>
-
-            <!-- Nav Item - Alerts -->
-            <li class="nav-item dropdown no-arrow mx-1">
-              <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-bell fa-fw"></i>
-                <!-- Counter - Alerts -->
-                <span class="badge badge-danger badge-counter">3+</span>
-              </a>
-              <!-- Dropdown - Alerts -->
-              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
-                <h6 class="dropdown-header">
-                  Alerts Center
-                </h6>
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                  <div class="mr-3">
-                    <div class="icon-circle bg-primary">
-                      <i class="fas fa-file-alt text-white"></i>
-                    </div>
-                  </div>
-                  <div>
-                    <div class="small text-gray-500">December 12, 2019</div>
-                    <span class="font-weight-bold">A new monthly report is ready to download!</span>
-                  </div>
-                </a>
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                  <div class="mr-3">
-                    <div class="icon-circle bg-success">
-                      <i class="fas fa-donate text-white"></i>
-                    </div>
-                  </div>
-                  <div>
-                    <div class="small text-gray-500">December 7, 2019</div>
-                    $290.29 has been deposited into your account!
-                  </div>
-                </a>
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                  <div class="mr-3">
-                    <div class="icon-circle bg-warning">
-                      <i class="fas fa-exclamation-triangle text-white"></i>
-                    </div>
-                  </div>
-                  <div>
-                    <div class="small text-gray-500">December 2, 2019</div>
-                    Spending Alert: We've noticed unusually high spending for your account.
-                  </div>
-                </a>
-                <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
-              </div>
-            </li>
-
-            <!-- Nav Item - Messages -->
-            <li class="nav-item dropdown no-arrow mx-1">
-              <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-envelope fa-fw"></i>
-                <!-- Counter - Messages -->
-                <span class="badge badge-danger badge-counter">7</span>
-              </a>
-              <!-- Dropdown - Messages -->
-              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="messagesDropdown">
-                <h6 class="dropdown-header">
-                  Message Center
-                </h6>
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                  <div class="dropdown-list-image mr-3">
-                    <img class="rounded-circle" src="https://source.unsplash.com/fn_BT9fwg_E/60x60" alt="">
-                    <div class="status-indicator bg-success"></div>
-                  </div>
-                  <div class="font-weight-bold">
-                    <div class="text-truncate">Hi there! I am wondering if you can help me with a problem I've been having.</div>
-                    <div class="small text-gray-500">Emily Fowler · 58m</div>
-                  </div>
-                </a>
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                  <div class="dropdown-list-image mr-3">
-                    <img class="rounded-circle" src="https://source.unsplash.com/AU4VPcFN4LE/60x60" alt="">
-                    <div class="status-indicator"></div>
-                  </div>
-                  <div>
-                    <div class="text-truncate">I have the photos that you ordered last month, how would you like them sent to you?</div>
-                    <div class="small text-gray-500">Jae Chun · 1d</div>
-                  </div>
-                </a>
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                  <div class="dropdown-list-image mr-3">
-                    <img class="rounded-circle" src="https://source.unsplash.com/CS2uCrpNzJY/60x60" alt="">
-                    <div class="status-indicator bg-warning"></div>
-                  </div>
-                  <div>
-                    <div class="text-truncate">Last month's report looks great, I am very happy with the progress so far, keep up the good work!</div>
-                    <div class="small text-gray-500">Morgan Alvarez · 2d</div>
-                  </div>
-                </a>
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                  <div class="dropdown-list-image mr-3">
-                    <img class="rounded-circle" src="https://source.unsplash.com/Mv9hjnEUHR4/60x60" alt="">
-                    <div class="status-indicator bg-success"></div>
-                  </div>
-                  <div>
-                    <div class="text-truncate">Am I a good boy? The reason I ask is because someone told me that people say this to all dogs, even if they aren't good...</div>
-                    <div class="small text-gray-500">Chicken the Dog · 2w</div>
-                  </div>
-                </a>
-                <a class="dropdown-item text-center small text-gray-500" href="#">Read More Messages</a>
-              </div>
-            </li>
-
-            <div class="topbar-divider d-none d-sm-block"></div>
-
-            <!-- Nav Item - User Information -->
-            <li class="nav-item dropdown no-arrow">
-              <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Valerie Luna</span>
-                <img class="img-profile rounded-circle" src="https://source.unsplash.com/QAB-WJcbgJk/60x60">
-              </a>
-              <!-- Dropdown - User Information -->
-              <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-                <a class="dropdown-item" href="#">
-                  <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Profile
-                </a>
-                <a class="dropdown-item" href="#">
-                  <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Settings
-                </a>
-                <a class="dropdown-item" href="#">
-                  <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Activity Log
-                </a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
-                  <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Logout
-                </a>
-              </div>
-            </li>
-
-          </ul>
-
-        </nav>
-        <!-- End of Topbar -->
-
-        <!-- Begin Page Content -->
-        <div class="container-fluid">
-
-          <!-- Page Heading -->
-          <h1 class="h3 mb-2 text-gray-800">Charts</h1>
-          <p class="mb-4">Chart.js is a third party plugin that is used to generate the charts in this theme. The charts below have been customized - for further customization options, please visit the <a target="_blank" href="https://www.chartjs.org/docs/latest/">official Chart.js documentation</a>.</p>
-
-          <!-- Content Row -->
-          <div class="row">
-
-            <div class="col-xl-8 col-lg-7">
-
-              <!-- Area Chart -->
-              <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Area Chart</h6>
+                  </form>
                 </div>
-                <div class="card-body">
-                  <div class="chart-area">
-                    <canvas id="myAreaChart"></canvas>
+              </li>
+  
+    
+  
+              <div class="topbar-divider d-none d-sm-block"></div>
+  
+              <!-- Nav Item - User Information -->
+              <li class="nav-item dropdown no-arrow">
+                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="mr-2 d-none d-lg-inline text-gray-600 small">Valerie Luna</span>
+                  <img class="img-profile rounded-circle" src="https://source.unsplash.com/QAB-WJcbgJk/60x60">
+                </a>
+                <!-- Dropdown - User Information -->
+                <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                  <a class="dropdown-item" href="#">
+                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                    Persónuupplýsingar
+                  </a>
+                  <a class="dropdown-item" href="#">
+                    <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                    Stillingar
+                  </a>
+                  <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                    Útskrá
+                  </a>
+                </div>
+              </li>
+  
+            </ul>
+  
+          </nav>
+          <!-- End of Topbar -->
+  
+          <!-- Begin Page Content -->
+          <div class="container-fluid">
+  
+  
+            <!-- Content Row -->
+            <div class="row">
+            <!-- Content Row -->
+              <div class="col-xl-6 col-lg-12">
+                <!-- Illustrations -->
+                <div class="card shadow mb-4">
+                  <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">Almennt</h6>
                   </div>
-                  <hr>
-                  Styling for the area chart can be found in the <code>/js/demo/chart-area-demo.js</code> file.
+                  <div class="card-body">
+                    <p>Sýslumaður gefur út ökuskírteini að lokinni könnun á því hvort skilyrðum til útgáfunnar sé fullnægt. Í ökuskírteini skulu meðal annars skráðar upplýsingar um réttindaflokk handhafa skírteinis og viðbótarupplýsingar, skilyrði og takmarkanir er varða handhafa þess.
+                        Gildistími ökuskírteina er annars vegar til bráðabirgða og hins vegar til 15 ára (miðað við flokka AM, A1, A2, A, B, BE og T).</p>
+                  </div>
                 </div>
               </div>
-
-              <!-- Bar Chart -->
-              <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Bar Chart</h6>
-                </div>
-                <div class="card-body">
-                  <div class="chart-bar">
-                    <canvas id="myBarChart"></canvas>
+              <div class="col-xl-6 col-lg-12">
+                <!-- Illustrations -->
+                <div class="card shadow mb-4">
+                  <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">Bráðarbirgðaskírteini</h6>
                   </div>
-                  <hr>
-                  Styling for the bar chart can be found in the <code>/js/demo/chart-bar-demo.js</code> file.
-                </div>
-              </div>
-
-            </div>
-
-            <!-- Donut Chart -->
-            <div class="col-xl-4 col-lg-5">
-              <div class="card shadow mb-4">
-                <!-- Card Header - Dropdown -->
-                <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Donut Chart</h6>
-                </div>
-                <!-- Card Body -->
-                <div class="card-body">
-                  <div class="chart-pie pt-4">
-                    <canvas id="myPieChart"></canvas>
+                  <div class="card-body">
+                    <p>Bráðabirgðaskírteini eru gefin út til byrjanda og gilda til þriggja ára frá útgáfudegi. Önnur ökuskírteini eru gefin út til 15 ára eftir flokkum ökuskírteina og aldri umsækjanda.</p>
                   </div>
-                  <hr>
-                  Styling for the donut chart can be found in the <code>/js/demo/chart-pie-demo.js</code> file.
                 </div>
               </div>
             </div>
+
+
+
+
+            <!-- Content Row -->
+            <div class="row">
+            <!-- Content Row -->
+              <div class="col-xl-6 col-lg-12">
+                <!-- Illustrations -->
+                <div class="card shadow mb-4">
+                  <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">Fullnaðarskírteini</h6>
+                  </div>
+                  <div class="card-body">
+                    <p>Fullnaðarskírteini fyrir flokkana A, B og BE (ökuskírteini til að aka fólksbifreiðum) eru gefin út til 15 ára. Fullnaðarskírteini fyrir flokkana C, CE, D og DE og til farþegaflutninga í atvinnuskyni (aukin ökuréttindi – meirapróf) eru gefin út til fimm ára. Að liðnum gildistíma slíkra skírteina halda þau gildi sínu að því er varðar rétt til að aka fólksbifreið. Um ökuréttindaflokka og þau ökuréttindi sem ökuskírteini samkvæmt þeim veita vísast til ákvæða (5. gr. - 13. gr.)</p>
+                    <a href="https://www.samgongustofa.is/media/log-og-reglur-i-umferdarmalum/Reglugerd-um-okuskirteini-nr_830_2011-20141222.pdf">reglugerðar um ökuskírteini nr. 830/2011.</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-12">
+                <!-- Illustrations -->
+                <div class="card shadow mb-4">
+                  <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">Læknisvottorð</h6>
+                  </div>
+                  <div class="card-body">
+                    <p>Yfirlýsing umsækjanda um heilbrigði eða læknisvottorð. Við umsókn um réttindi fyrir flokkana A, B, BE, M og T nægir heilbrigðisyfirlýsing ein, nema sýslumaður telji þörf á læknisvottorði eða ef umsækjandi hefur náð 65 ára aldri. Leggja skal fram læknisvottorð þegar sótt er um réttindi fyrir flokkana C, CE, D og DE, svo og til farþegaflutninga í atvinnuskyni.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <!-- Content Row -->
+            <div class="row">
+            <!-- Content Row -->
+              <div class="col-xl-6 col-lg-12">
+                <!-- Illustrations -->
+                <div class="card shadow mb-4">
+                  <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">Útgáfa nýs ökuskírteinis</h6>
+                  </div>
+                  <div class="card-body">
+                    <h5>Almenn skilyrði fyrir útgáfu nýs ökuskírteinis eru:</h5>
+                    <ul>
+                      <li>Umsækjandi fullnægi aldursskilyrðum fyrir viðkomandi flokk ökutækja.</li>
+                      <li>Umsækjandi sjái og heyri nægilega vel og sé að öðru leyti nægilega hæfur andlega og líkamlega.</li>
+                      <li>Umsækjandi hafi hlotið kennslu löggilts ökukennara og sannað með prófi að hann hafi næga aksturshæfni og nauðsynlega þekkingu á ökutækinu og umferðarlöggjöf.</li>
+                      <li>Umsækjandi hafi fasta búsetu hér á landi.</li>
+                    </ul>
+                    <p>Nánar er kveðið á um skilyrði fyrir útgáfu ökuskírteina í
+                    <a href="https://www.samgongustofa.is/media/log-og-reglur-i-umferdarmalum/Reglugerd-um-okuskirteini-nr_830_2011-20141222.pdf">reglugerðar um ökuskírteini nr. 830/2011.</a>
+                    um ökuskírteini.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-12">
+                <!-- Illustrations -->
+                <div class="card shadow mb-4">
+                  <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">Ökunám</h6>
+                  </div>
+                  <div class="card-body">
+                    <p>Umsækjandi um ökuskírteini fyrir flokk sem hann hefur ekki áður haft ökuskírteini fyrir skal hafa hlotið kennslu ökukennara sem hefur löggildingu fyrir þann flokk. Kennsla skal fara fram í samræmi við námskrá sem Samgöngustofa setur, um ökunám fyrir hlutaðeigandi flokk. Heimilt er að hefja ökunám 12 mánuðum áður en nemandi hefur aldur til að fá útgefið ökuskírteini fyrir þann flokk ökuréttinda sem óskað er eftir. hægt er að skrá sig í ökunám með því að hafa samband við ökukennara og hægt er að finna upplýsingar um hvernig á að hafa samband við þá undir flipanum ökukennarar</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <!-- Content Row -->
+            <div class="row">
+                <!-- Content Row -->
+                  <div class="col-xl-6 col-lg-12">
+                    <!-- Illustrations -->
+                    <div class="card shadow mb-4">
+                      <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">Æfingaakstur</h6>
+                      </div>
+                      <div class="card-body">
+                        <p>Nemanda er heimilt að æfa akstur bifreiðar eða bifhjóls með leiðbeinanda í stað ökukennara, enda hafi nemandinn hlotið lágmarksþjálfun og leiðbeinandinn hafi fengið til þess leyfi sýslumanns. Áður en æfingaakstur er heimilaður þarf nemandi að sækja um ökuskírteini (námsheimild). Sjá umsókn um ökuskírteini.</p>
+                        <h6>Engum má veita leyfi sem leiðbeinanda nema hann:</h6>
+                        <ul>
+                          <li>Hafi náð 24 ára aldri.</li>
+                          <li>Hafi gild ökuréttindi til að stjórna þeim flokki ökutækja sem æfa á akstur með og hafi a.m.k. 5 ára reynslu af slíku ökutæki.</li>
+                          <li>Hafi ekki á sl. 12 mánuðum verið án ökuskírteinis vegna ökuleyfissviptingar eða verið refsað fyrir vítaverða aksturshætti.</li>
+                        </ul>
+                        <p>Sækja skal um heimild til æfingaaksturs til sýslumanns. Umsókninni skal fylgja vottorð ökukennara um að nemandi hafi öðlast nægilega þekkingu á umferðarreglum og þjálfun í meðferð og stjórnun ökutækis. Sýslumaður gefur út æfingaakstursleyfi á nafn nemanda og leiðbeinanda til allt að 15 mánaða. Leiðbeinandi skal hafa leyfið meðferðis við akstur og framvísa því er lögregla krefst þess.</p>
+                        <p>Bifreiðar sem notaðar eru til æfingaaksturs skulu auðkenndar með þar til gerðu merki með áletruninni æfingaakstur.</p>
+                        <p>Athugið að leiðbeinandi telst stjórnandi bifreiðar við æfingaakstur.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-12">
+                    <!-- Illustrations -->
+                    <div class="card shadow mb-4">
+                      <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">Ökupróf</h6>
+                      </div>
+                      <div class="card-body">
+                        <p>Ökupróf getur ekki farið fram fyrr en nemandi hefur fengið próftökuheimild sýslumanns og ökukennari hefur staðfest skriflega að fullnægjandi ökunám hafi farið fram.</p>
+                        <p>Ökupróf skiptist í tvo hluta, fræðilegt próf (skriflegt) og verklegt próf. Verklega prófið er tvíþætt; munnlegt próf og verklegt próf. Verklegt próf fer ekki fram fyrr en að stöðnu fræðilegu prófi. Fræðilega prófið má ekki fara fram fyrr en tveimur mánuðum áður en umsækjandi fullnægir aldursskilyrðum til að fá útgefin ökuréttindi, en verklegt próf ekki fyrr en einni viku áður en umsækjandi fullnægir aldursskilyrðum.</p>
+                        <p>Frumherji hf. annast framkvæmd ökuprófa samkvæmt samningi við Samgöngustofu. Samgöngustofa  hefur umsjón með ökunámi og ökuprófum og annast eftirlit með starfseminni. Samgöngustofa semur skrifleg ökupróf, próflýsingar, viðmiðunarkvarða verklegra prófa og verklagsreglur um framkvæmd samkvæmt gildandi reglugerðum og námsskrám.</p>
+                        <p>Frekari upplýsingar um ökunám og ökupróf má nálgast á vef <a href="https://www.samgongustofa.is/">Samgöngustofu.</a></p>
+                        <p>Upplýsingar um daglega framkvæmd ökuprófa má fá hjá <a href="https://www.frumherji.is/index.php"> ., Hesthálsi 6-8 Reykjavík.</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                
+
+
+
+
+
+
+
+
+
+
+
+                <!-- Illustrations -->
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                      <h6 class="m-0 font-weight-bold text-primary">Umsókn um Fullnaðarskírteini og Endurnýjun ökuskírteinis</h6>
+                    </div>
+                    <div class="card-body">
+                        <p><a href="http://www.logreglan.is/adstod/eydublod/okuskirteini/" target="_blank">Umsókn um útgáfu fullnaðarskírteinis og endurnýjun ökuskírteinis við lok gildistíma</a> má afhenda sýslumanni, óháð því hvar umsækjandi hefur búsetu.</p>
+
+                        <p>Umsókn skal fylgja ljósmynd og heilbrigðisyfirlýsing eða læknisvottorð eftir atvikum.</p>
+                        
+                        <p>Áður en fullnaðarskírteini er gefið út eða bráðabirgðaskírteini endurnýjað skal ökumaður fara í akstursmat, þar sem kannað er hvort mat ökumanns á eigin aksturshæfni, akstursháttum og öryggi í umferðinni er í samræmi við raunverulega getu hans.</p>
+                        
+                        <p><b>Heimilt er að gefa út fullnaðarskírteini:</b></p>
+                        
+                        <ul type="disc">
+                        <li>Hafi ökumaður haft bráðabirgðaskírteini í samfellt eitt ár.</li>
+                        
+                        <li>Ökumaður hafi ekki á síðustu 12 mánuðum fengið punkta í punktakerfi vegna umferðarlagabrota eða verið án ökuréttar vegna sviptingar.</li>
+                        
+                        <li>Ökumaður hafi farið í akstursmat og fengið að því loknu umsögn ökukennara þar sem mælt er með útgáfu fullnaðarskírteinis.</li>
+                        </ul>
+                        
+                        <p>Endurnýja má ökuskírteini að loknum gildistíma, enda fullnægi umsækjandi enn skilyrðum til að fá ökuskírteini útgefið. Ef sótt er um útgáfu fullnaðarskírteinis eða endurnýjun ökuskírteinis þegar meira en tvö ár eru liðin frá því að gildistími ökuskírteini rann út skal þreyta próf í aksturshæfni skv. <a href="http://www.samgongustofa.is/media/log-og-reglur-i-umferdarmalum/Reglugerd-um-okuskirteini-nr_830_2011-20141222.pdf" target="_blank">15. gr. reglugerðar nr. 830/2011.</a></p>
+                        
+                        <h4>Eldri ökuréttindi</h4>
+                        <b>– ökuskírteini gefin út fyrir 1. mars 1988</b> 
+                        
+                        <p>Fullnaðarskírteini sem gefin voru út til 10 ára fyrir 1. mars 1988 og voru þá í gildi, gilda áfram án sérstakrar áritunar þar til hlutaðeigandi er fullra 70 ára. &nbsp;Þó þykir mega mæla með því að nýtt ökuskírteini sé útvegað, einkum ef aka á útlöndum.</p>
+                        
+                        <h4>Glatað ökuskírteini / samrit ökuskírteinis</h4>
+                        
+                        <p>Hafi ökuskírteini glatast eða það hefur skemmst eða slitnað svo að áritanir, númer, stimplar, ljósmynd eða þess háttar er ógreinilegt, eða skírteinið að öðru leyti skemmst, skal handhafi þess sækja um að fá útgefið samrit ökuskírteinisins, enda sé ætlunin að nýta réttindin áfram.</p>
+                        
+                        <p>Umsókn um samrit má afhenda sýslumanni óháð því hvar á landinu umsækjandi hefur fasta búsetu. Sjá má umsóknareyðublað fyrir samrit ökuskírteinis hér hægra megin á síðunni.&nbsp;</p>
+                        
+                        <p>Hafi ökuskírteini glatast skal umsækjandi undirrita yfirlýsingu þess efnis. Skemmd ökuskírteini og glötuð ökuskírteini sem finnast skulu afhent lögreglu (eða sýslumanni).</p><p>Ekki þarf nýtt læknisvottorð þegar sótt er um samrit ökuskírteinis en hins vegar kann að vera æskilegt að koma með nýja mynd af umsækjanda. &nbsp;</p>
+                        
+                        <h4>Bráðabirgðaakstursheimild</h4>
+                        
+                        <p>Sýslumaður getur gefið út bráðabirgðaakstursheimild handa þeim sem hefur íslensk ökuréttindi. Sama gildir um þá sem hafa fasta búsetu hérlendis og eru handhafar ökuskírteina frá Færeyjum og ríkjum sem eru aðilar að samningnum um Evrópska efnahagssvæðið.</p>
+                        
+                        <p>Bráðabirgðaakstursheimildir eru gefnar út tímabundið, að jafnaði ekki lengur en til eins mánaðar.</p>
+                        
+                        <p><b>Heimild til að gefa út bráðabirgðaakstursheimild gildir í eftirtöldum tilfellum:</b></p>
+                        
+                        <ul type="disc">
+                        <li>Þegar ökuskírteini hefur glatast og umsækjanda er nauðsyn að stjórna ökutæki.</li>
+                        
+                        <li>Þegar skírteinishafi hefur gleymt ökuskírteini á stað þar sem ekki verður með sanngirni gerð krafa um að hann nálgist það.</li>
+                        
+                        <li>Þegar ökuréttinda hefur verið aflað og tiltekinn tíma tekur þar til ökuskírteini er tilbúið.</li>
+                        
+                        <li>Þegar aðrar sérstakar aðstæður eru fyrir hendi.</li>
+                        </ul>
+                        
+                        <p>Akstursheimild skal höfð meðferðis við akstur auk viðurkenndra skilríkja með mynd af handhafa.</p>
+                        
+                        <h4>Skipti á erlendum ökuskírteinum í samsvarandi íslenskt ökuskírteini</h4>
+                        
+                        <p>Umsókn um erlent ökuskírteini í samsvarandi íslenskt ökuskírteini má afhenda sýslumanni, óháð því hvar umsækjandi hefur búsetu, enda hafi hann fasta búsetu hér á landi. Gefa má út íslenskt ökuskírteini í stað gilds erlends ökuskírteinis, með þeim takmörkunum sem leiðir af ákvæðum 29. - 31. gr. reglugerðar nr. 830/2011 um ökuskírteini, enda uppfylli skírteinishafi þau skilyrði sem gilda um öflun samsvarandi íslensks ökuskírteinis. Að meginreglu geta handhafar ökuskírteina, sem gefin eru út í ríkjum sem ekki eru aðilar að samningnum um Evrópska efnahagssvæðið, því aðeins skipt á ökuskírteini sínu og íslensku ökuskírteini að þeir standist hæfnispróf.&nbsp;</p>
+                        
+                        <p><b>Umsókn um skipti á erlendu ökuskírteini skal fylgja:</b></p>
+                        
+                        <ul>
+                        <li>Ljósmynd (35 x 45 mm) af umsækjanda.</li>
+                        
+                        <li>Erlent ökuskírteini.</li>
+                        
+                        <li>Heilbrigðisyfirlýsing eða eftir atvikum læknisvottorð, sé erlent ökuskírteini ekki gefið út í Færeyjum eða ríki sem er aðili að samningnum um Evrópska efnahagssvæðið.</li>
+                        </ul>
+                        
+                    </div>
+                  </div>
+  
+
+                <div class="card shadow mb-4">
+                  <div class="card-header py-3">
+                      <h6 class="m-0 font-weight-bold text-primary">Afturköllun ökuréttar</h6>
+                    </div>
+                    <div class="card-body">
+                      <h2 class="collapse">Skilyrði og reglur fyrir erlenda ríkisborgara</h2>
+
+                      <p>Auk almennra skilyrða sem uppfylla þarf til að fá útgefið ökuskírteini þurfa eftirtalin skilyrði að vera uppfyllt þegar erlendir ríkisborgarar eiga í hlut:</p>
+                      
+                      <ol>
+                      <li>Að þeir uppfylli búsetuskilyrði, sbr. 4. tl. 3. mgr. reglugerðar um ökuskírteini nr. 830/2011, (t.a.m. með framlagningu á búsetuvottorði, sbr. einnig c. lið 1. tl. 2. mgr. 3. gr. reglugerðarinnar, þar sem kveðið er á um að sýslumaður geti krafist þess að umsækjandi sanni að hann hafi fasta búsetu hér á landi.) Skal því krefjast búsetuvottorðs frá Þjóðskrá þegar erlendir ríkisborgarar sækja um íslenskt ökuskírteini.</li>
+                      
+                      <li>Að staðfest sé að þeir hafi gild ökuréttindi í heimaríki, sbr. 2. mgr. 4. gr. reglugerðar um ökuskírteini nr. 830/2011, líkt og gert hefur verið þegar sótt er um skipti á erlendu ökuskírteini fyrir íslenskt.</li>
+                      
+                      <li>Að sýnt sé fram á að sakaferill umsækjanda í heimalandi hans sé ekki með þeim hætti að hann uppfylli ekki skilyrði til að fá útgefið ökuskírteini,sbr. 2. mgr. 4. gr. reglugerðarinnar. Afhenta þarf eða afla sakavottorðs umsækjandans frá heimalandi hans. <sup>1)</sup> </li>
+                      </ol>
+                      
+                      <p>Hafi erlendur ríkisborgari fengið útgefið íslenskt ökuskírteini, án þess að uppfylla kröfur um búsetuskilyrði eða uppfylli ekki önnur skilyrði til að öðlast íslenskt ökuskírteini, eða hefur aflað þess með ólögmætum hætti, skal innkalla ökuskírteinið hjá viðkomandi aðila og fella réttindin sem það veitir úr gildi.<sup>1) Því eru þessar reglur nauðsynlegar að nýleg dæmi eru um að 
+                      Norðurlandabúar, sem hafa verið sviptir ökuréttindum í sínu heimalandi 
+                      eða uppfylla ekki skilyrði til að öðlast ökuréttindi, komi gagngert til 
+                      landsins til að afla sér íslenskra ökuréttinda með ólöglegum hætti. Þeir
+                        hafa skráð sig til heimilis hér á landi, sótt tíma hjá ökukennara og í 
+                      kjölfarið sótt um heimild til próftöku eftir að hafa verið skráðir til 
+                      heimilis hér á landi innan við viku. Síðar hefur komið í ljós að 
+                      viðkomandi hafði verið sviptur ökuréttindum í heimalandi sínu.</sup>
+                      </p>
+                    </div>
+                  </div> 
+              
+                         
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">Alþjóðlegt ökuskírteini</h6>
+                      </div>
+                      <div class="card-body">
+                        <h2 class="collapse">Umsóknir um íslenskt ökuskírteini erlendis</h2>
+
+                        <h4>Notkun íslenskra ökuskírteina utan Íslands</h4>
+                        
+                        <p>Íslensk ökuskírteini, eins og þau líta út í dag, eru viðurkennd til aksturs innan EES landanna (að teknu tilliti til reglna hvers lands um lágmarks aldur og einnig þarf sérstök réttindi til aksturs í atvinnuskyni). Þetta á við hvort sem viðkomandi dvelur sem ferðamaður í viðkomandi ríki eða tekur upp fasta búsetu í því.</p>
+                        
+                        <p>Upplýsingar um ökuskírteini á EES svæðinu má finna í ritinu&nbsp;<a href="http://bookshop.europa.eu/en/driving-licences-pbKO6304416/">Driving licences, European Union and European Economic Area</a>: Íslensk ökuskírteini, bls. 230-239.</p>
+                        
+                        <p>Utan landa Evrópska efnahagssvæðisins eru reglur um viðurkenningu mismunandi. Í mörgum ríkjum er það viðurkennt til aksturs þegar viðkomandi dvelur þar sem ferðamaður. Nær undantekningalaust þarf viðkomandi að skipta í þjóðarskírteini viðkomandi ríkis taki hann upp fasta búsetu þar. Leiki vafi á hvort íslenskt ökuskírteini er viðurkennt til aksturs þegar viðkomandi dvelur sem ferðamaður í ríkinu er öruggast að hafa auk þess alþjóðlegt ökuskírteini (sýslumenn og FÍB gefa út alþjóðlegt ökuskírteini og er það gefið út til eins árs).</p>
+                        
+                        <h2 class="collapse">Afturköllun ökuréttar</h2>
+                        
+                        <p>Lögreglustjóri getur afturkallað ökuréttindi ef skilyrðum til að öðlast ökuskírteini er ekki lengur fullnægt. Neiti hlutaðeigandi að taka þátt í hæfnisprófi, ökuprófi eða rannsóknum eða athugunum sem nauðsynlegar eru til ákvörðunarinnar getur lögreglustjóri afturkallað ökuréttindi þegar í stað.</p>
+                        
+                        <p>Séu ökuréttindi afturkölluð þar sem hlutaðeigandi er háður notkun ávana- og fíkniefna eða annarra sljóvgandi efna, eða er ekki nægilega reglusamur, má hann bera ákvörðunina undir dómstóla eftir reglum 68. gr. a almennra hegningarlaga nr. 19/1940.</p>
+                        
+                        <p>Hafi lögreglustjóri tekið ákvörðun um afturköllun ökuréttinda skal ökuskírteini afhent lögreglu.</p>
+                        
+                        <h4>Endurveiting ökuréttinda eftir afturköllun</h4>
+                        
+                        <p>Umsókn um endurveitingu ökuréttinda má afhenda lögreglustjóra, óháð því hvar á landinu umsækjandi hefur búsetu.</p>
+                        
+                        <p>Hafi ökuréttindi verið afturkölluð vegna læknisfræðilegra ástæðna eða vegna notkunar ávana- eða fíkniefna eða annarra sljóvgandi efna eða vegna ónógrar reglusemi skal leggja fram læknisvottorð.</p>
+                        
+                        <p>Hafi ökuréttindi verið afturkölluð vegna þess að hlutaðeigandi stóðst ekki hæfnispróf eða hæfnisprófið fór ekki fram má endurveiting fyrst fara fram að hlutaðeigandi standist nýtt hæfnispróf.</p>
+                        
+                        <p>Hafi afturköllun ökuréttinda varað þrjú ár eða lengur vegna notkunar ávana- og fíkniefna eða annarra sljóvgandi efna, vegna ónógrar reglusemi eða vegna upplýsinga um heilbrigði er það skilyrði fyrir endurveitingu að umsækjandi standist hæfnispróf. Lögreglustjóri getur ef sérstaklega stendur á ákveðið að ekki þurfi að gangast undir hæfnispróf.</p>
+                        
+                        <h4>Svipting ökuréttar</h4>
+                        
+                        <p>Svipta skal mann rétti til að stjórna vélknúnu ökutæki sem ökuskírteini þarf til hafi hann orðið sekur um mjög vítaverðan akstur slíks ökutækis eða ef telja verður, með hliðsjón af eðli brotsins eða annars framferðis hans sem ökumanns vélknúins ökutækis, varhugavert að hann stjórni vélknúnu ökutæki. Handhöfum ökuskírteina er einkum gerð svipting á ökurétti vegna hraðaksturs og ölvunaraksturs, sbr. nánar ákvæði 101.-105. gr. umferðarlaga nr. 50/1987 og viðauka við <a href="http://www.samgongustofa.is/media/log-og-reglur-i-umferdarmalum/930_2006.pdf" target="_blank">reglugerð nr. 930/2006 um sektir og önnur viðurlög vegna brota á umferðarlögum og reglum settum samkvæmt þeim.</a></p>
+                        
+                        <p>Ökumenn geta einnig sætt sviptingu ökuréttar vegna uppsafnaðra punkta í punktakerfi vegna umferðarlagabrota. Hafi maður á þriggja ára tímabili gerst sekur um þrjú eða fleiri brot á umferðarlögunum eða reglum og reglugerðum settum samkvæmt þeim og náð tilteknum punktafjölda samkvæmt punktakerfi vegna umferðarlagabrota (12 pkt. fullnaðarskírteini / 7 pkt. bráðabirgðaskírteini), skal hann sviptur ökurétti í þrjá mánuði til viðbótar þeirri sviptingu ökuréttar sem við síðasta brotinu kann að liggja. Um punktakerfi vegna umferðarlagabrota og vægi einstakra brota í punktum talið gildir <a href="http://www.stjornartidindi.is/Advert.aspx?ID=5806c8a2-6a0c-4ba5-adb8-a19e9843ff41" target="_blank">reglugerð nr. 816/2014 um ökuferilsskrá og punktakerfi vegna umferðarlagabrota.</a></p>
+                        
+                        <p>Svipting ökuréttar felur í sér sviptingu réttar samkvæmt ökuskírteini og réttar til að öðlast ökuskírteini.</p>
+                        
+                        <p>Hafi maður verið sviptur ökurétti ber honum að afhenda lögreglu ökuskírteini sitt til varðveislu.</p>
+                        
+                        <h4>Endurveiting ökuréttinda eftir sviptingu</h4>
+                        
+                        <p>Sá sem sviptur hefur verið ökuréttindum í eitt ár eða skemur, öðlast ökuréttindi að nýju að liðnum sviptingartíma.</p>
+                        
+                        <p>Sá sem sviptur hefur verið ökuréttindum um lengri tíma en eitt ár, öðlast eigi ökuréttindi að nýju að loknum sviptingartíma, nema hann standist próf í umferðarlöggjöf, akstri og meðferð ökutækis. Ökupróf má ekki fara fram fyrr en einum mánuði áður en sviptingartímabil rennur út.</p>
+                        
+                        <p>Sá sem sviptur hefur verið ökurétti um lengri tíma en þrjú ár verður að sækja sérstaklega um endurveitingu ökuréttar hjá lögreglustjóra. Um endurveitingu ökuréttar eftir sviptingu ökuréttar gilda ákvæði 106. gr. umferðarlaga nr. 50/1987 og <a href="http://www.samgongustofa.is/media/log-og-reglur-i-umferdarmalum/706_2004.pdf">reglugerðar nr. 706/2004 um endurveitingu ökuréttar.</a></p>
+                        
+                        <p>Hafi maður verið sviptur ökurétti um lengri tíma en þrjú ár er heimilt að veita ökurétt að nýju, þegar svipting hefur staðið í þrjú ár. Hafi maður verið sviptur ökurétti ævilangt má þó eigi veita ökurétt að nýju fyrr en svipting hefur staðið í fimm ár.</p>
+                        
+                        <p>Endurveiting er aðeins heimiluð að sérstakar ástæður mæli ekki gegn því. Við mat á umsókn skal meðal annars litið til þess að umsækjandi hafi sýnt reglusemi og að ekki séu lengur fyrir hendi þær ástæður, sem ökuleyfissvipting byggðist á. Við matið er meðal annars litið til brotaferils samkvæmt sakavottorði, útistandandi sekta og sakarkostnaðar og annarra lögmætra sjónarmiða.</p>
+                        
+                        <p>Hafi umsækjandi gerst sekur um akstur án réttinda á sviptingartímabilinu lengist tími til endurveitingar um þrjá mánuði fyrir hvert brot, en að hámarki um eitt ár.</p>
+                        
+                        <p>Lögreglustjórar annast framkvæmd endurveitinga ökuréttar í umboði ríkislögreglustjóra. Sækja skal skriflega um endurveitingu hjá lögreglustjóra, á þar til gerðu eyðublaði. Umsókn má afhenda lögreglustjóra, óháð því hvar á landinu umsækjandi er búsettur. Nálgast má eyðublað fyrir umsókn um endurveitingu á <a href="http://www.logreglan.is/adstod/eydublod/okuskirteini/" target="_blank">vef lögreglunnar.</a></p>
+                        
+                        <p>Synji lögreglustjóri um endurveitingu ökuréttar getur hlutaðeigandi skotið synjuninni til innanríkisráðherra með kæru. Um málsmeðferð fer samkvæmt stjórnsýslulögum.</p>
+                      </div>
+                    </div> 
+                
+                  <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">Gjald fyrir útgáfu ökuskíretina</h6>
+                      </div>
+                      <div class="card-body">
+                        <h2 class="collapse">Alþjóðlegt ökuskírteini</h2>
+                        
+                        <p>Sýslumenn og Félag íslenskra bifreiðaeigenda, fíb.,&nbsp;hafa heimild til að gefa út alþjóðlegt ökuskírteini.</p>
+                        
+                        <p>Alþjóðlegt ökuskírteini má gefa út til þess sem hefur gilt íslenskt ökuskírteini og er orðinn 18 ára. Skírteinið gildir í ár frá útgáfudegi þess og tekur einungis til ökutækja sem hlutaðeigandi hefur rétt til að stjórna samkvæmt hinu íslenska ökuskírteini.</p>
+                        
+                        <p>Skírteinið veitir þó ekki rétt til að stjórna ökutæki hér á landi.</p>
+                        
+                        <p>Ákvæði um alþjóðleg ökuskírteini má sjá í samningi gerðum sem birtur var í C-deild Stjórnartíðinda sem auglýsing nr. 9 25. júlí 1983.
+                        </p>
+                        
+                        <p>Ákvæði um alþjóðleg ökuskírteini má sjá í <a href="/media/kopavogur/althjodlegtoku.pdf">samningi gerðum á vettvangi Sameinuðu þjóðanna um umferð á vegum,</a> sem birtur var í C-deild Stjórnartíðinda sem auglýsing nr. 9 25. júlí 1983.
+                        </p>
+                      </div>
+                    </div> 
+
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">Ökuferilsskrá</h6>
+                      </div>
+                      <div class="card-body">
+                        <h2>Gjald fyrir útgáfu ökuskírteina</h2>
+                        
+                        <p>Fyrir útgáfu ökuskírteina og endurnýjun þeirra ber að greiða gjald samkvæmt lögum um aukatekjur ríkissjóðs nr. 88/1991.&nbsp; Sjá  <a href="/gjaldtaka/okuskirteini/" class="internal">hér</a>, þar sem einnig er að finna upplýsingar um gjald fyrir útgáfu alþjóðlegs ökuskírteinis.&nbsp; </p>
+                        
+                        <h2 class="collapse">Ökuferilsskrá</h2>
+                        
+                        <p>Ökuferilsskrá ber að halda í samræmi við reglugerð um ökuferilsskrá og umferðarpunkta nr. 929/2006. Í ökuferilsskrá einstaklinga eru færð öll umferðarlagabrot viðkomandi. Brotin eru skráð í lögreglukerfið og þar sem um er að ræða persónuupplýsingar sem varða kærur fyrir brot, þá flokkast þær sem viðkvæmar persónuupplýsingar sbr. B lið 8. tl. 2. gr <a href="http://www.althingi.is/lagas/nuna/2000077.html">laga nr. 77/2000 um persónuvernd og meðferð persónuupplýsinga</a>. Þessar upplýsingar eru skráðar í lögreglukerfið eins og önnur brot einstaklinga, ekki í ökuskírteinakerfið og tengist þannig ekki þeim upplýsingum sem skráðar eru í ökuskírteinaskrána. Einstaklingur getur óskað eftir ökuferilsskrá sinni á lögreglustöð eða sent erindi til lögreglu og óskað eftir henni og verður hún þá send á lögheimili viðkomandi.</p>
+                        
+                        <p>
+                        </p>
+                        
+                        <p><sub>Uppfært 07.09.2017.</sub>
+                        </p>
+                        
+                        <div class="related-group">
+                        <h2>Lög og reglugerðir</h2>
+                        
+                        <p><a href="http://www.althingi.is/lagas/nuna/1987050.html">Umferðarlög nr. 50/1987</a>
+                        <a href="https://www.samgongustofa.is/media/log-og-reglur-i-umferdarmalum/830_2011-20171206-Reglugerd-um-okuskirteini.pdf" target="_blank">Reglugerð nr. 830/2011 um ökuskírteini</a>
+                        <a href="http://www.stjornartidindi.is/Advert.aspx?ID=5806c8a2-6a0c-4ba5-adb8-a19e9843ff41" target="_blank">Reglugerð nr. 816/2014 um ökuferilsskrá og punktakerfi vegna umferðarlagabrota</a>
+                        <a href="http://www.samgongustofa.is/media/log-og-reglur-i-umferdarmalum/706_2004.pdf" target="_blank">Reglugerð nr. 706/2004 um endurveitingu ökuréttar</a>&nbsp;</p>
+                        
+                        <h4>Eyðublöð</h4>
+                        
+                        <p><a href="http://www.logreglan.is/adstod/eydublod/okuskirteini/" target="_blank">Umsókn um nýtt ökuskírteini eða nýjan flokk ökuréttinda</a></p><p> <a href="https://www.logreglan.is/adstod/eydublod/okuskirteini/">Umsókn um ökuskírteini - nýr flokkur</a> 
+                        <a href="http://www.logreglan.is/adstod/eydublod/okuskirteini/" target="_blank">Umsókn um endurnýjun ökuskírteinis, endurveitingu ökuréttinda eða skipti á erlendu ökuskírteini</a>
+                        <a href="http://www.logreglan.is/adstod/eydublod/okuskirteini/" target="_blank">Umsókn um samrit ökuskírteinis</a>
+                        <a href="http://www.logreglan.is/adstod/eydublod/okuskirteini/" target="_blank">Umsókn um endurveitingu ökuréttinda eftir sviptingu ökuréttar</a></p>
+                        
+                        <h4>Tengdir vefir</h4>
+                        
+                        <p><a href="http://www.us.is/">Samgöngustofa</a>
+                        </p>
+                        
+                        <p><a href="http://www.frumherji.is/">Frumherji hf.&nbsp;</a></p>
+                        
+                        <p> <a href="https://www.stjornarradid.is/raduneyti/domsmalaraduneytid/">Dómsmálaráðuneytið</a> </p>
+                        
+                        <p><a href="http://www.rls.is/">Ríkislögreglustjóri</a></p>
+                        
+                        <p><a href="http://www.fib.is/">Félag íslenskra bifreiðaeigenda</a></p>
+                        </div>
+                        
+                      </div> 
+                    </div>
+
+
+
+
+
+          <!-- /.container-fluid -->
+  
+  
+        <!-- End of Main Content -->
+  
+        <!-- Footer -->
+        <footer class="sticky-footer bg-white">
+          <div class="container my-auto">
+            <div class="copyright text-center my-auto">
+              <span>Copyright &copy; Keyrðu hraðar 2019</span>
+            </div>
           </div>
-
-        </div>
-        <!-- /.container-fluid -->
-
+        </footer>
+        <!-- End of Footer -->
+  
       </div>
-      <!-- End of Main Content -->
-
-      <!-- Footer -->
-      <footer class="sticky-footer bg-white">
-        <div class="container my-auto">
-          <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Your Website 2019</span>
-          </div>
-        </div>
-      </footer>
-      <!-- End of Footer -->
-
+      <!-- End of Content Wrapper -->
+  
     </div>
-    <!-- End of Content Wrapper -->
-
-  </div>
-  <!-- End of Page Wrapper -->
-
-  <!-- Scroll to Top Button-->
-  <a class="scroll-to-top rounded" href="#page-top">
-    <i class="fas fa-angle-up"></i>
-  </a>
-
-  <!-- Logout Modal-->
-  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">×</span>
-          </button>
-        </div>
-        <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-        <div class="modal-footer">
-          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-          <a class="btn btn-primary" href="login.html">Logout</a>
+    <!-- End of Page Wrapper -->
+  
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+  
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+            <a class="btn btn-primary" href="login.html">Logout</a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-
-  <!-- Bootstrap core JavaScript-->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Core plugin JavaScript-->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for all pages-->
-  <script src="js/sb-admin-2.min.js"></script>
-
-  <!-- Page level plugins -->
-  <script src="vendor/chart.js/Chart.min.js"></script>
-
-  <!-- Page level custom scripts -->
-  <script src="js/demo/chart-area-demo.js"></script>
-  <script src="js/demo/chart-pie-demo.js"></script>
-  <script src="js/demo/chart-bar-demo.js"></script>
-
-</body>
+  
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+  
+    <!-- Page level plugins -->
+    <script src="vendor/chart.js/Chart.min.js"></script>
+  
+    <!-- Page level custom scripts -->
+    <script src="js/demo/chart-area-demo.js"></script>
+    <script src="js/demo/chart-pie-demo.js"></script>
+  
+  </body>
 
 </html>
