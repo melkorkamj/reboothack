@@ -1,20 +1,38 @@
 @import "navs/global.scss";
 @import "navs/topbar.scss";
 @import "navs/sidebar.scss";
+@import "../scss/_variables.scss";
 
 
 .personal-info {
+    display: flex;
+    flex-flow: row;
     list-style: none;
-    padding-left: 0;
+    padding-bottom: 0;
 }
 
 .personal-info ul {
-    padding-left: 0;
+    padding: 0;
     list-style: none;
+    margin-bottom: 0;
+    margin-left: $spacer;
 }
 
-.personal-info h3 {
+.first {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     font-size: 1rem;
-    //color: pink;
-    color: $theme-primary;
+    color: $blue;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.car {
+    height: 4rem;
+    width: 4rem;
 }
