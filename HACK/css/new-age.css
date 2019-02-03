@@ -77,10 +77,6 @@ section h2 {
   letter-spacing: 1px;
 }
 
-#mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-  color: #dbcccc;
-}
-
 #mainNav .navbar-toggler {
   font-size: 12px;
   padding: 8px 10px;
