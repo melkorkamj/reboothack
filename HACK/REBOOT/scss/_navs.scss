@@ -36,3 +36,38 @@
     height: 4rem;
     width: 4rem;
 }
+
+.select-licence {
+    //overflow: hidden;
+    margin: $spacer 0;
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    padding: 1rem 0.7rem;
+    background: $blue;
+    border-radius: 10rem;
+}
+
+.select-licence select {
+    background: $blue;
+    color: $white;
+    border: none;
+    font-size: 0.8rem;
+    width: 100%;
+}
+
+.rounded {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.file-input {
+    font-size: 0.8rem;
+    border-radius: 10rem;
+    border: 1px solid #d1d3e2;
+    width: 100%;
+    padding: 0.8rem 1rem;
+}
+
+
+.black select   { color: #fff; }

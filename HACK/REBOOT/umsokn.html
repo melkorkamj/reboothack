@@ -16,7 +16,7 @@
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
   <!-- Custom styles for this template-->
-  <link href="css/sb-admin-2.css" rel="stylesheet">
+  <link href="css/sb-admin-2.min.css" rel="stylesheet">
 
 </head>
 
@@ -83,9 +83,9 @@
         </a>
         <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <a class="collapse-item" href="login.html">Bráðarbirgðaskírteini</a>
-            <a class="collapse-item" href="register.html">Fullnaðarskírteini</a>
-            <a class="collapse-item" href="forgot-password.html">Endurnýjun skírteinis</a>
+            <a class="collapse-item" href="umsokn.html">Bráðabirgðaskírteini</a>
+            <a class="collapse-item" href="fullnadar.html">Fullnaðarskírteini</a>
+            <a class="collapse-item" href="endurnyjun.html">Endurnýjun skírteinis</a>
         </div>
       </li>
 
@@ -126,16 +126,7 @@
           </button>
 
           <!-- Topbar Search -->
-          <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-            <div class="input-group">
-              <input type="text" class="form-control bg-light border-0 small" placeholder="Leita af..." aria-label="Search" aria-describedby="basic-addon2">
-              <div class="input-group-append">
-                <button class="btn btn-primary" type="button">
-                  <i class="fas fa-search fa-sm"></i>
-                </button>
-              </div>
-            </div>
-          </form>
+          
 
           <!-- Topbar Navbar -->
           <ul class="navbar-nav ml-auto">
@@ -167,8 +158,8 @@
             <!-- Nav Item - User Information -->
             <li class="nav-item dropdown no-arrow">
               <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Valerie Luna</span>
-                <img class="img-profile rounded-circle" src="https://source.unsplash.com/QAB-WJcbgJk/60x60">
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Jón Jónsson</span>
+                <img class="img-profile rounded-circle" src="img/jon.png">
               </a>
               <!-- Dropdown - User Information -->
               <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
@@ -203,14 +194,14 @@
           <div class="col-lg-7">
             <div class="p-5">
               <div class="text-center">
-                <h1 class="h4 text-gray-900 mb-4">Umsókn um skírteini</h1>
+                <h1 class="h4 text-gray-900 mb-4">Umsókn um bráðabirgðaskírteini</h1>
               </div>
               <form class="user">
-                <div class="form-group row">
-                  <div class="col-sm-6 mb-3 mb-sm-0">
-                    <input type="text" class="form-control form-control-user" id="exampleFirstName" placeholder="Kennitala">
-                  </div>
-                  <div>
+                <div class="form-group column">
+                  
+                  <input type="text" class="form-control form-control-user" id="exampleFirstName" placeholder="Kennitala">
+                  
+                  <div class="select-licence">
                     <select>
                       <option value="am">AM - Létt bifhjól</option>
                       <option value="a1">A1 - Bifhjól</option>
@@ -230,7 +221,7 @@
                     </select>
                   </div>
                   <div>
-                  <input class="btn  btn-user btn-block" type="file" onchange="previewFile()"><br>
+                  <input class="file-input" type="file" onchange="previewFile()"><br>
                   <script>
                    function previewFile(){
                        var preview = document.querySelector('img'); //selects the query named img

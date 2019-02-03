@@ -62,10 +62,10 @@
         </a>
         <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <a class="collapse-item" href="utilities-color.html">Suðurland</a>
-            <a class="collapse-item" href="utilities-border.html">Norðurland</a>
-            <a class="collapse-item" href="utilities-animation.html">Austurland</a>
-            <a class="collapse-item" href="utilities-other.html">Vesturland</a>
+            <a class="collapse-item" href="sudurland.html">Suðurland</a>
+            <a class="collapse-item" href="nordurland.html">Norðurland</a>
+            <a class="collapse-item" href="austurland.html">Austurland</a>
+            <a class="collapse-item" href="vesturland.html">Vesturland</a>
           </div>
         </div>
       </li>
@@ -126,16 +126,7 @@
           </button>
 
           <!-- Topbar Search -->
-          <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-            <div class="input-group">
-              <input type="text" class="form-control bg-light border-0 small" placeholder="Leita af..." aria-label="Search" aria-describedby="basic-addon2">
-              <div class="input-group-append">
-                <button class="btn btn-primary" type="button">
-                  <i class="fas fa-search fa-sm"></i>
-                </button>
-              </div>
-            </div>
-          </form>
+          
 
           <!-- Topbar Navbar -->
           <ul class="navbar-nav ml-auto">
@@ -167,8 +158,8 @@
             <!-- Nav Item - User Information -->
             <li class="nav-item dropdown no-arrow">
               <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Valerie Luna</span>
-                <img class="img-profile rounded-circle" src="https://source.unsplash.com/QAB-WJcbgJk/60x60">
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Jón Jónsson</span>
+                <img class="img-profile rounded-circle" src="img/jon.png">
               </a>
               <!-- Dropdown - User Information -->
               <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
@@ -190,37 +181,91 @@
           </ul>
 
         </nav>
-        <!-- End of Topbar -->
 
-        <!-- Begin Page Content -->
-        <div class="container-fluid">
+<body class="bg-gradient-primary">
 
+  <div class="container">
 
-          <!-- Content Row -->
-
-          <!-- Content Row -->
-     
-
-              <!-- Illustrations -->
-              <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Ökukennarar á Norðurlandi</h6>
-                </div>
-                <div class="card-body">
-                  <div class="text-center">
-                    <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/nordur.png" alt="">
-                  </div>
-                  <p>Hér getur þú fundið alla ökukennara á Norðurlandi</p>
-                  <a target="_blank" rel="nofollow" href="https://undraw.co/">Akureyri &rarr;</a>
-
+    <div class="card o-hidden border-0 shadow-lg my-5">
+      <div class="card-body p-0">
+        <!-- Nested Row within Card Body -->
+        <div class="row">
+          <div class="col-lg-5 d-none d-lg-block bg-register-image"></div>
+          <div class="col-lg-7">
+            <div class="p-5">
+              <div class="text-center">
+                <h1 class="h4 text-gray-900 mb-4">Umsókn um fullnaðarskírteini</h1>
               </div>
+              <form class="user">
+                <div class="form-group column">
+                  
+                  <input type="text" class="form-control form-control-user" id="exampleFirstName" placeholder="Kennitala">
+                  
+                  <div class="select-licence">
+                    <select>
+                      <option value="am">AM - Létt bifhjól</option>
+                      <option value="a1">A1 - Bifhjól</option>
+                      <option value="a2">A2 - Bifhjól</option>
+                      <option value="a">A - Bifhjól</option>
+                      <option value="b">B - Fólksbifreið</option>
+                      <option value="t">T - Dráttarvél</option>
+                      <option value="be"> BE - Fólksbifreið með eftirvagn</option>
+                      <option value="c1">C1 - Lítil vörubifreið</option>
+                      <option value="c">C - Vörubifreið</option>
+                      <option value="d1">D1 - Lítil hópbifreið</option>
+                      <option value="d">D - Hópbifreið</option>
+                      <option value="c1e">C1E - Lítil vörubifreið með eftirvagn</option>
+                      <option value="d1e">D1E - Lítil hópbifreið með eftirvagn</option>
+                      <option value="ce">CE - Vörubifreið með eftirvagn</option>
+                      <option value="de">DE - Hópbifreið með eftirvagn</option>
+                    </select>
+                  </div>
+                  <div>
+                  <input class="file-input" type="file" onchange="previewFile()"><br>
+                  <script>
+                   function previewFile(){
+                       var preview = document.querySelector('img'); //selects the query named img
+                       var file    = document.querySelector('input[type=file]').files[0]; //sames as here
+                       var reader  = new FileReader();
 
-         
+                       reader.onloadend = function () {
+                           preview.src = reader.result;
+                       }
 
+                       if (file) {
+                           reader.readAsDataURL(file); //reads the data as a URL
+                       } else {
+                           preview.src = "";
+                       }
+                  }
 
-        <!-- /.container-fluid -->
+                  previewFile();  //calls the function named previewFile()
+                  </script>
+                         </div>   
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control form-control-user" id="exampleInputEmail" placeholder="Email Address">
+                </div>
+                <div class="form-group row">
+                
+                </div>
+                <a href="success.html" class="btn btn-primary btn-user btn-block">
+                  Sækja um
+                </a>
+                <hr>
+           
+            
+              </form>
+              <hr>
 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+  </div>
+       
       <!-- End of Main Content -->
 
       <!-- Footer -->
@@ -249,15 +294,15 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Útskráning</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
           <button class="close" type="button" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">×</span>
           </button>
         </div>
-        <div class="modal-body">Veldur hnappinn "Útskrá" ef þú vilt útskrá þig af þessari síðu</div>
+        <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
         <div class="modal-footer">
-          <button class="btn btn-secondary" type="button" data-dismiss="modal">Hætta við</button>
-          <a class="btn btn-primary" href="login.html">Útsrká</a>
+          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+          <a class="btn btn-primary" href="login.html">Logout</a>
         </div>
       </div>
     </div>
@@ -283,3 +328,4 @@
 </body>
 
 </html>
+
