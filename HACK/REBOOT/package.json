@@ -14,8 +14,12 @@
         "app"
     ],
     "scripts": {
+        "rollup": "rollup -c",
+        "rollup-watch": "rollup -c -w",
+        "browser-sync": "browser-sync start --server --files index.html fyrirlestur.html ./dist/styles.css ./dist/bundle.js",
         "sass": "node-sass --source-map-embed ./scss/sb-admin-2.scss ./css/sb-admin-2.min.css",
-        "sass-watch": "node-sass --source-map-embed --watch --recursive ./scss/sb-admin-2.scss ./css/sb-admin-2.min.css"
+        "sass-watch": "node-sass --source-map-embed --watch --recursive ./scss/sb-admin-2.scss ./css/sb-admin-2.min.css",
+        "dev": "concurrently  npm:sass npm:sass-watch npm:rollup-watch npm:browser-sync"
     },
     "homepage": "https://startbootstrap.com/template-overviews/sb-admin-2",
     "bugs": {
@@ -35,6 +39,7 @@
         "@fortawesome/fontawesome-free": "5.7.0",
         "bootstrap": "4.2.1",
         "chart.js": "2.7.3",
+        "concurrently": "^4.1.0",
         "datatables.net-bs4": "1.10.19",
         "jquery": "3.3.1",
         "jquery.easing": "^1.4.1",
