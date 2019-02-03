@@ -191,70 +191,11 @@
 
         </nav>
 
-<body class="bg-gradient-primary">
-
-  <div class="container">
-
-    <div class="card o-hidden border-0 shadow-lg my-5">
-      <div class="card-body p-0">
-        <!-- Nested Row within Card Body -->
-        <div class="row">
-          <div class="col-lg-5 d-none d-lg-block bg-register-image"></div>
-          <div class="col-lg-7">
-            <div class="p-5">
-              <div class="text-center">
-                <h1 class="h4 text-gray-900 mb-4">Umsókn um skírteini</h1>
-              </div>
-              <form class="user">
-                <div class="form-group row">
-                  <div class="col-sm-6 mb-3 mb-sm-0">
-                    <input type="text" class="form-control form-control-user" id="exampleFirstName" placeholder="Kennitala">
-                  </div>
-                  <div>
-                  <input class="btn  btn-user btn-block" type="file" onchange="previewFile()"><br>
-                  <script>
-                   function previewFile(){
-                       var preview = document.querySelector('img'); //selects the query named img
-                       var file    = document.querySelector('input[type=file]').files[0]; //sames as here
-                       var reader  = new FileReader();
-
-                       reader.onloadend = function () {
-                           preview.src = reader.result;
-                       }
-
-                       if (file) {
-                           reader.readAsDataURL(file); //reads the data as a URL
-                       } else {
-                           preview.src = "";
-                       }
-                  }
-
-                  previewFile();  //calls the function named previewFile()
-                  </script>
-                         </div>   
-                </div>
-                <div class="form-group">
-                  <input type="email" class="form-control form-control-user" id="exampleInputEmail" placeholder="Email Address">
-                </div>
-                <div class="form-group row">
-                
-                </div>
-                <a href="success.html" class="btn btn-primary btn-user btn-block">
-                  Sækja um
-                </a>
-                <hr>
-           
-            
-              </form>
-              <hr>
-
-            </div>
-          </div>
+        <div class="container-fluid">
+          <h1 class="h3 mb-2 text-gray-800">Umsókn tókst</h1>
+            <p class="mb-4">Þú munt fá tölvupóst um staðfestingu umsóknar</p>
+            <p class="mb-4">Þú getur skoðað stöðu umsóknar þinnar inná <a href="#" >persónuupplýsingar</a></p>
         </div>
-      </div>
-    </div>
-
-  </div>
        
       <!-- End of Main Content -->
 
